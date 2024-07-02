@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import {Link} from 'react-scroll';
 import '../styles/NavigationBar.css';
 
 const NavigationBar = () => {
@@ -17,19 +18,79 @@ const NavigationBar = () => {
         </div>
         <ul className={isOpen ? 'nav-menu active' : 'nav-menu'}>
           <li className="nav-item">
-            <a href="#home" className="nav-links">Home</a>
+          <Link
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            exact="true"
+            onClick={toggleMenu}
+            className="nav-links"
+          >
+            Home
+          </Link>
           </li>
           <li className="nav-item">
-            <a href="#about" className="nav-links">About</a>
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            exact="true"
+            onClick={toggleMenu}
+            className="nav-links"
+          >
+            About
+          </Link>
           </li>
           <li className="nav-item">
-            <a href="#experience" className="nav-links">Experience</a>
+          <Link
+            activeClass="active"
+            to="experience"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            exact="true"
+            onClick={toggleMenu}
+            className="nav-links"
+          >
+            Experience
+          </Link>
           </li>
           <li className="nav-item">
-            <a href="#projects" className="nav-links">Projects</a>
+          <Link
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            exact="true"
+            onClick={toggleMenu}
+            className="nav-links"
+          >
+            Projects
+          </Link>
           </li>
           <li className="nav-item">
-            <a href="#contact" className="nav-links">Contact</a>
+          <Link
+            activeClass="active"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            exact="true"
+            onClick={toggleMenu}
+            className="nav-links"
+          >
+            Contact
+          </Link>
           </li>
         </ul>
       </div>
