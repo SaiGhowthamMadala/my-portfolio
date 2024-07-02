@@ -1,3 +1,4 @@
+import '../styles/Skills.css';
 const Skills = () => {
     return (
         <div className="projects">
