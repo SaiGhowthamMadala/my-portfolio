@@ -6,7 +6,7 @@
 }
 
 .navbar {
-  background: #333;
+  background: linear-gradient(#200101, #080808, #0c1424);
   height: 60px;
   display: flex;
   justify-content: center;
@@ -17,7 +17,7 @@
 
 .navbar-container {
   display: flex;
-  justify-content: space-between; /* Space between logo and menu icon */
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   max-width: 1000px;

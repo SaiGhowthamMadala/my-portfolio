@@ -1,3 +1,5 @@
+/* App.css */
 .app {
-  background-color: linear-gradient(to right, #12100E, #2B4162);
+  background: linear-gradient(to right, rgb(54, 54, 70) 2%, rgb(69, 81, 83) 100%);
+  min-height: 100vh;
 }
