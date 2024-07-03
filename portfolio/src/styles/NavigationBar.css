@@ -29,13 +29,6 @@
   padding: 0 20px;
 }
 
-.navbar-logo {
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  margin-right: auto; /* Push logo to the left */
-}
-
 .menu-icon {
   display: none;
   font-size: 1.8rem;
@@ -47,8 +40,8 @@
   display: flex;
   list-style: none;
   text-align: center;
-  justify-content: center; /* Center the items horizontally */
-  flex: 1; /* Allow nav-menu to take up remaining space */
+  justify-content: center;
+  flex: 1; 
 }
 
 .nav-item {

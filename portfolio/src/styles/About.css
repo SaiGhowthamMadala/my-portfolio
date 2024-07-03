@@ -1,3 +1,46 @@
 .about {
     min-height: 100vh;
-}
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .about-content {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .about-h1 {
+    text-align: center;
+    font-size: 50px;
+    animation: text-animation 3s infinite;
+  }
+  
+  .about-info {
+    padding-top: 40px;
+    text-align: center;
+    color: #ffffff93;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .image {
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .about {
+      flex-direction: column;
+    }
+  
+    .image {
+      margin-top: 20px;
+    }
+  }
+  
